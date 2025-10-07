@@ -1,0 +1,40 @@
+:root {
+
+    /* font-family */
+    --text-font-family-body: "DM Sans", "Sans Placeholder", sans-serif;
+    --text-font-family-heading: "Poppins Bold", sans-serif;
+
+
+    /* color */
+    --color-foreground-primary: #000;
+    --color-foreground-secondary: #fff;
+    --color-foreground-tertiary: rgb(3, 97, 71);
+    --color-foreground-quaternary: rgb(242, 108, 78);
+
+    /* bg-color */
+    --color-background-primary: #fff;
+    --color-background-secondary: rgb(3, 97, 71);
+    --color-background-tertiary: rgb(235, 232, 225);
+    --color-background-quaternary: rgb(247, 247, 247);
+    --color-background-quinary: rgb(242, 108, 78);
+
+    /* font-weight */
+    --font-weight-primary: 400;
+    --font-weight-secondary: 600;
+
+    /* font-size */
+    --font-size-main-heading: 39.81px;
+    --font-size-heading: 33.18px;
+    --font-size-primary: 16px;
+    --font-size-secondary: 14px;
+    --font-size-tertiary: 12px;
+    --font-size-quaternary: 19.2px;
+    --font-size-quinary: 20px;
+
+    /* text-alignment */
+    --text-alignment-center: center;
+    --text-alignment-left: left;
+
+    /* line height */
+    --line-height: 1.8em;
+}
