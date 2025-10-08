@@ -6,25 +6,96 @@
 }
 body {
     font-family: var(--text-font-family-body);
-    font-size: var(--font-weight-primary);
-    font-weight: var(--font-weight-primary);
     text-align: var(--text-alignment-center);
     align-content: center;
 }
 .page-width {
-    width: 1400px;
+    max-width: 1800px;
     margin: auto;
+}
+.padding {
+    padding: 0 50px;
 }
 .bg-green {
     background-color: var(--color-background-secondary);
 }
-.bg-white {
-    background-color: var(--color-background-primary);
+.text-fff {
+    color: var(--color-foreground-secondary);
+}
+.size-14 {
+    font-size: var(--font-size-secondary);
+}
+.line-height-1-8 {
+    line-height: 1.8em;
+}
+.announcement-bar-content {
+    padding: 5px 0px;
+    letter-spacing: 0px;
+    transform: scaleY(0.98);
+    opacity: 1;
+}
+.wgt-400 {
+    font-weight: var(--font-weight-primary);
+}
+.bg-dark-gray {
+    background-color: var(--color-background-tertiary);
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.header-wrapper {
+    height: auto;
+}
+.header-logo {
+    max-height: 60px;
+    max-width: 224px;
+    padding: 5px;
+}
+.navigation-links {
+    margin-right: 1.3%;
+}
+.gap-30 {
+    gap: 30px;
+}
+.size-16 {
+    font-size: var(--font-size-primary);
+}
+.underline {
+    text-decoration: underline;
+}
+.text-orange:hover {
+    color: var(--color-foreground-quaternary);
+    text-decoration: underline;
+}
+.shop {
+    gap: 5px;
+}
+.shop-svg-wrapper {
+    transform: translateY(-4px);
+    width: 16px;
+    height: 16px;
+}
+.header-icons {
+    gap: 15px;
+    margin-top: 5px;
 }
 .svg-wrapper {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
+}
+.family-poppins {
+    font-family: var(--text-font-family-heading);
+}
+.wgt-600 {
+    font-weight: var(--font-weight-secondary);
+} 
+
+
+
+.bg-white {
+    background-color: var(--color-background-primary);
 }
 .text-000 {
     color: var(--color-foreground-primary);
@@ -32,15 +103,12 @@ body {
 .text-green {
     color: var(--color-foreground-tertiary);
 }
-.text-orange-hover:hover {
-    color: var(--color-foreground-quaternary);
+.navigation-links {
+    justify-content: space-around;
 }
-.display-flex {
+.flex {
     display: flex;
     align-items: center;
-}
-.text-fff {
-    color: var(--color-foreground-secondary);
 }
 .grid {
     flex-wrap: wrap;
@@ -60,10 +128,10 @@ body {
 }
 .bg-orange {
     background-color: var(--color-background-quinary);
+}*/
+
+
+.extra {
+    width: 100%;
+    height: 100vh;
 }
-.wgt-400 {
-    font-weight: var(--font-weight-primary);
-}
-.wgt-600 {
-    font-weight: var(--font-weight-secondary);
-} */

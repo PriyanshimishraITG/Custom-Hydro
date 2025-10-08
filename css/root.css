@@ -2,7 +2,7 @@
 
     /* font-family */
     --text-font-family-body: "DM Sans", "Sans Placeholder", sans-serif;
-    --text-font-family-heading: "Poppins Bold", sans-serif;
+    --text-font-family-heading: "Poppins","Poppins Placeholder" , sans-serif;
 
 
     /* color */
@@ -36,5 +36,6 @@
     --text-alignment-left: left;
 
     /* line height */
-    --line-height: 1.8em;
+    --line-height-primary: 1.8em;
+    --line-height-secondary: 1.2em;
 }
