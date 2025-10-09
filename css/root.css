@@ -15,7 +15,7 @@
     --color-background-primary: #fff;
     --color-background-secondary: rgb(3, 97, 71);
     --color-background-tertiary: rgb(235, 232, 225);
-    --color-background-quaternary: rgb(247, 247, 247);
+    --color-background-quaternary: rgb(247, 244, 237);
     --color-background-quinary: rgb(242, 108, 78);
 
     /* font-weight */
@@ -34,6 +34,7 @@
     /* text-alignment */
     --text-alignment-center: center;
     --text-alignment-left: left;
+    --self-align-left: flex-start;
 
     /* line height */
     --line-height-primary: 1.8em;
