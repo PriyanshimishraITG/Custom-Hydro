@@ -46,6 +46,7 @@ prevBtn.addEventListener('click', () => {
     prevSlide();
     resetInterval();
 });
+
 container.addEventListener('transitionend', handleLoop);
 window.addEventListener('resize', () => {
     slideWidth = allSlides[0].clientWidth;

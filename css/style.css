@@ -313,7 +313,7 @@ body {
     transition: 0.3s ease;
 }
 .card-product:hover > .card--cart-badge {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 .card-media {
     position: relative;
