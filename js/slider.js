@@ -53,3 +53,18 @@ window.addEventListener('resize', () => {
     updateSlide(index, false);
 });
 interval = setInterval(autoPlay, 4000);
+
+const headers = document.querySelectorAll('.accordion-content-header');
+const para = document.querySelectorAll('.accordion-content');
+headers.forEach(header => {
+    header.addEventListener('click', () => {
+        const item = header.parentElement;
+        item.classList.toggle('active');
+    });
+});
+para.forEach(header => {
+    header.addEventListener('click', () => {
+        const item = header.parentElement;
+        item.classList.toggle('active');
+    });
+});
